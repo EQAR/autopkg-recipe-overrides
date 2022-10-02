@@ -19,21 +19,17 @@
 		<dict>
 			<key>com.github.jaharmi.download.Signal</key>
 			<dict>
-				<key>git_hash</key>
-				<string>08c97ab84921ebadcd42260a0447a445f52a5ad6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes/Signal/Signal.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>dd490e24ca738147e4926030fc88965288cc6ba56eae85396a7564393cef19a0</string>
+				<string>e3c736d0eb9362139e72bf8513693ecc23cb0c85a330efa82f4b7645e20ec8d0</string>
 			</dict>
 			<key>com.github.jaharmi.munki.Signal</key>
 			<dict>
-				<key>git_hash</key>
-				<string>fae562768fa29d94f4677d67e5952da790b15d2c</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes/Signal/Signal.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>9c081db2499f8c056c41edaf0783d0e75f70f62a56596a7d41c517ed6219118b</string>
+				<string>a68f27a5099ed86fa26348a26c1de297317ddd4fd2accf8440331a12b364529c</string>
 			</dict>
 		</dict>
 	</dict>
