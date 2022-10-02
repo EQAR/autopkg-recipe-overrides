@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Scribus</string>
+	<key>Input</key>
+	<dict>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;https://sourceforge.net/projects/scribus/files/scribus-devel/(?P&lt;version&gt;.*?)/scribus-.*?.dmg/download)</string>
+		<key>SEARCH_URL</key>
+		<string>https://sourceforge.net/projects/scribus/rss?path=/scribus-devel</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.gerardkok.munki.Scribus</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.gerardkok.munki.Scribus</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes/Scribus/Scribus.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>95097e6c845312a506bc77f3947ac930e54598e1a44328794eeb9a2a6719c26c</string>
+			</dict>
+			<key>com.github.hansen-m.download.Scribus</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Scribus/Scribus.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5a4c8016722fbbcf42ccfa7d80bd372409bdf43a85cd24632d8493f2ade7ebaf</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
