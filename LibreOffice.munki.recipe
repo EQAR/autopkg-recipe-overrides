@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.LibreOffice</string>
+	<key>Input</key>
+	<dict>
+		<key>RELEASE</key>
+		<string>still</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.munki.LibreOffice</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.LibreOffice</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/LibreOffice/LibreOffice.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5fbdebb1151b9416e4a1d8ccdc873d9c985e795f2726aa1c3537afa595bb3f8e</string>
+			</dict>
+			<key>io.github.hjuutilainen.munki.LibreOffice</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/LibreOffice/LibreOffice.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>6629394ea06504bd72c3ef9630f041f834b5092481a20d1d9c62aa1515f46241</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
