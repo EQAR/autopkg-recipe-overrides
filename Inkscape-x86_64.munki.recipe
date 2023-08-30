@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Inkscape.intel</string>
+	<key>Input</key>
+	<dict>
+		<key>ARCHITECTURE</key>
+		<string>dmg</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Vector graphics application.</string>
+			<key>developer</key>
+			<string>The Inkscape Project</string>
+			<key>display_name</key>
+			<string>Inkscape</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>supported_architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.Inkscape</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.Inkscape</key>
+			<dict>
+				<key>git_hash</key>
+				<string>12523b5a729fcb3aa135d9cf8fc17b43e36ee87f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Inkscape/Inkscape.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3032d574d0a476dfcea1aa04fc860a704a00a9f12e1c448ac640c8f040807ba8</string>
+			</dict>
+			<key>com.github.homebysix.munki.Inkscape</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8404e74c6770cd030cf4cf9db6d966f4d64e5c17</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Inkscape/Inkscape.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>368caa08bcfdaf6219e5619251842d6f65baf223cd0e5794bafb1bf3b4e8c0e0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
