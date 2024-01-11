@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Microsoft_Word_365</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>msoffice</string>
+		<key>NAME</key>
+		<string>Microsoft_Word</string>
+		<key>PRODUCTID</key>
+		<string>525134</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.Microsoft Word 365</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.munki.Microsoft Word 365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8c347b864fc63bc936e30e1a9e21892c0a3e94f8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Microsoft Word 365/Microsoft Word 365.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>6cbf9deb9632f06388905d53898aae0ec21f85f9a5b883401046e1ffcfce10ad</string>
+			</dict>
+			<key>com.github.rtrouton.download.microsoftword365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftWord365/MicrosoftWord365.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>447da48064a925c65307413ae32c76a665d633f0ccf9ad7f53d0de1809441c1c</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftword365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftWord365/MicrosoftWord365.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>da3f07d80e6bab3f8f5ac19c80706cae87909d57bd63e3c4ec1d474eedb75b59</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Microsoft PowerPoint 365</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>msoffice</string>
+		<key>NAME</key>
+		<string>Microsoft_PowerPoint</string>
+		<key>PRODUCTID</key>
+		<string>525136</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.Microsoft PowerPoint 365</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.munki.Microsoft PowerPoint 365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8c347b864fc63bc936e30e1a9e21892c0a3e94f8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Microsoft PowerPoint 365/Microsoft PowerPoint 365.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>57d535563c2ee415ed1d1124aa0ace227609cbf2f520e693393cb2022fdec70e</string>
+			</dict>
+			<key>com.github.rtrouton.download.microsoftpowerpoint365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftPowerPoint365/MicrosoftPowerPoint365.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3648fd34d13d7cf7f363996357ea5776eecd40f6d6923fc015fc6132d6ea73f7</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftpowerpoint365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftPowerPoint365/MicrosoftPowerPoint365.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c627395960f40221cdde1f42aa52694270f32f768ae0f67804c0985f297c9e1b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

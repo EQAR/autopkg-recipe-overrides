@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Microsoft_Excel_365</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>msoffice</string>
+		<key>NAME</key>
+		<string>Microsoft_Excel</string>
+		<key>PRODUCTID</key>
+		<string>525135</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.Microsoft Excel 365</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.munki.Microsoft Excel 365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8c347b864fc63bc936e30e1a9e21892c0a3e94f8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Microsoft Excel 365/Microsoft Excel 365.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>14eb469ba8b4d43a2931e62077e0720d3d65a5991fac1056ec0f57dba213af52</string>
+			</dict>
+			<key>com.github.rtrouton.download.microsoftexcel365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftExcel365/MicrosoftExcel365.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0cce58fb09aed964c58e59288abbb5c0bb9d5e14702dc1c6cf1c0d08a51be31e</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftexcel365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftExcel365/MicrosoftExcel365.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>9cd120e9ed4b49a37a89df1b2209ba8851db38ea0614168e6ac30094767af8f2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
