@@ -12,6 +12,31 @@
 		<string>Microsoft_Excel</string>
 		<key>PRODUCTID</key>
 		<string>525135</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Microsoft Auto Update</string>
+				<string>Microsoft Error Reporting</string>
+				<string>Microsoft Excel</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>See your data in new, intuitive ways. Powerful charts, graphs, and keyboard shortcuts turn columns of numbers into valuable information, so you can work easier.</string>
+			<key>category</key>
+			<string>Office</string>
+			<key>display_name</key>
+			<string>Microsoft Excel</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<false/>
+			<key>unattended_uninstall</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.dataJAR-recipes.munki.Microsoft Excel 365</string>

@@ -12,6 +12,31 @@
 		<string>Microsoft_PowerPoint</string>
 		<key>PRODUCTID</key>
 		<string>525136</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Microsoft Auto Update</string>
+				<string>Microsoft Error Reporting</string>
+				<string>Microsoft PowerPoint</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Communicate with confidence. PowerPoint for Mac makes it easy to create, collaborate and effectively present your ideas.</string>
+			<key>category</key>
+			<string>Office</string>
+			<key>display_name</key>
+			<string>Microsoft PowerPoint</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<false/>
+			<key>unattended_uninstall</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.dataJAR-recipes.munki.Microsoft PowerPoint 365</string>
