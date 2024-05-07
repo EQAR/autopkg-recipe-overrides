@@ -57,20 +57,20 @@
 			<key>io.github.hjuutilainen.download.LibreOffice</key>
 			<dict>
 				<key>git_hash</key>
-				<string>cf1dc149a9a3bc1be6660237555656604b5655b9</string>
+				<string>af99e9d58c87c8b47cda186b2eaf6010bfa2a4ff</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/LibreOffice/LibreOffice.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>06a3449403ab32599ea60b2877571704d51ebc006136909631b71d4fdf6da0f5</string>
+				<string>d8fc08037677c233a5d5e0d19ea0a538c0b67275e599e29f2c84ce36f802b34f</string>
 			</dict>
 			<key>io.github.hjuutilainen.munki.LibreOffice</key>
 			<dict>
 				<key>git_hash</key>
-				<string>8b6a277dd5915929ac29ae5e76a1de449f7ed10a</string>
+				<string>d68cbbd054b12aa86d865243656506cb153b376c</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/LibreOffice/LibreOffice.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>6629394ea06504bd72c3ef9630f041f834b5092481a20d1d9c62aa1515f46241</string>
+				<string>7677dae90993d15d89581d425af2f7c63929abd706c2f7f00b3fe05ce45f33cf</string>
 			</dict>
 		</dict>
 	</dict>
