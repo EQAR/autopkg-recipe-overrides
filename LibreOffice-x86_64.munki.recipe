@@ -9,7 +9,7 @@
 		<key>ARCH</key>
 		<string>x86_64</string>
 		<key>RELEASE</key>
-		<string>fresh</string>
+		<string>Previous</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
