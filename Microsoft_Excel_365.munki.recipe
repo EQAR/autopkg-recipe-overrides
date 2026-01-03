@@ -24,10 +24,10 @@
 			<array>
 				<string>testing</string>
 			</array>
-			<key>description</key>
-			<string>See your data in new, intuitive ways. Powerful charts, graphs, and keyboard shortcuts turn columns of numbers into valuable information, so you can work easier.</string>
 			<key>category</key>
 			<string>Office</string>
+			<key>description</key>
+			<string>See your data in new, intuitive ways. Powerful charts, graphs, and keyboard shortcuts turn columns of numbers into valuable information, so you can work easier.</string>
 			<key>display_name</key>
 			<string>Microsoft Excel</string>
 			<key>name</key>
@@ -49,11 +49,11 @@
 			<key>com.github.dataJAR-recipes.munki.Microsoft Excel 365</key>
 			<dict>
 				<key>git_hash</key>
-				<string>8c347b864fc63bc936e30e1a9e21892c0a3e94f8</string>
+				<string>231101272ef1c5f179257d6e38227ab6e3bb3f05</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Microsoft Excel 365/Microsoft Excel 365.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>14eb469ba8b4d43a2931e62077e0720d3d65a5991fac1056ec0f57dba213af52</string>
+				<string>58466f3150bb06dd466895244fb5f2ba93b4d6d36c67390709d659a590852001</string>
 			</dict>
 			<key>com.github.rtrouton.download.microsoftexcel365</key>
 			<dict>

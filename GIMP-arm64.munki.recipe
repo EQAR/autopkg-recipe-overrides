@@ -20,11 +20,11 @@
 			<key>io.github.hjuutilainen.download.GIMP</key>
 			<dict>
 				<key>git_hash</key>
-				<string>4132b9e72ad33878032b8e7fb056b6b64f7dfd86</string>
+				<string>4fbd3a2eadd96197275d2f81606911d693cd5bf6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GIMP/GIMP.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>c89d286fb7c7986b934f2f448dbde8b5507df804703d742ecd38846e16c85ec3</string>
+				<string>664b107169bcf6d4e502f8f60c608dbcc688d4f8860f8e71a3466bb058bbe9ea</string>
 			</dict>
 			<key>io.github.hjuutilainen.munki.GIMP</key>
 			<dict>

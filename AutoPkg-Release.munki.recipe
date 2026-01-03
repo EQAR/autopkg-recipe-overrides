@@ -43,11 +43,11 @@
 			<key>com.github.autopkg.download.AutoPkg-Release</key>
 			<dict>
 				<key>git_hash</key>
-				<string>51513ade261743e8e41885b5278b9821cb9000c5</string>
+				<string>6f8bd33df3f7ab53eb679749eae8f04227790652</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AutoPkg/AutoPkg-Release.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>e33ee93ec64e9bd8b3334012ee25854b2008cf892b97b5cacff0f2abb19e533d</string>
+				<string>a150de65f9034a6536bb126a944a5dfbe96d6bab2cb540b2f7f8cc4d9d264196</string>
 			</dict>
 			<key>com.github.thenikola.munki.AutoPkg-Release</key>
 			<dict>
